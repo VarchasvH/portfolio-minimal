@@ -5,24 +5,26 @@ const About = () => {
   return (
     <main className='flex flex-col md:flex-col justify-center items-center md:mt-5 mt-10 text-white '>
       <section className='flex flex-col md:flex-col md:mx-36 justify-center items-center '>
-        <h1 className='text-3xl md:text-3xl font-extrabold'>About Me</h1>
+        <h1 className='text-3xl md:text-3xl font-extrabold bg-[#fec576]/90 text-zinc-200 p-2 rounded-lg'>
+          About Me
+        </h1>
       </section>
-      <section className='flex flex-col md:flex-row justify-center items-center md:mt-8 md:mx-36 leading-5 '>
+      <section className='flex flex-col md:flex-row justify-center items-center mt-5 md:mt-2 md:mx-36 leading-5 '>
         <Image
           src='/pice2.jpg'
           alt='Pic'
           width={350}
           height={350}
-          className='rounded-md '
+          className='rounded-md w-[300px] md:w-[350px] '
         />
         <div className='flex flex-col md:ml-20 md:mt-5 mt-5'>
-          <h2 className='text-3xl md:text-5xl mx-20 md:mx-12 font-bold text-[#fec576]'>
+          <h2 className='text-3xl md:text-5xl mx-14 md:mx-12 font-bold text-[#fec576]'>
             Varchasv Hoon
           </h2>
-          <h3 className='text-base md:text-3xl mx-20 md:mx-12 md:mt-5 mt-2 '>
+          <h3 className='text-base md:text-3xl mx-14 md:mx-12 md:mt-5 mt-2 '>
             Web Developer
           </h3>
-          <p className=' text-xs md:text-base mx-20 md:mx-12 md:mt-5 mt-3 text-slate-200 tracking-wide'>
+          <p className=' text-xs md:text-base mx-14 md:mx-12 md:mt-5 mt-3 text-slate-200 tracking-wide'>
             Hello! My name is Varchasv Hoon and{" "}
             <span className='text-[#fec576]'>I am based in India</span>,
             enthusiastic about front-end and full-stack development. With a
@@ -33,7 +35,7 @@ const About = () => {
             Beyond coding, I find joy in Music, Gaming and Sports.
           </p>
 
-          <p className='text-xs md:text-base mx-20 md:mx-12 md:mt-5 mt-5 text-slate-200 tracking-wide'>
+          <p className='text-xs md:text-base mx-14 md:mx-12 md:mt-5 mt-5 text-slate-200 tracking-wide'>
             As a Developer, I am committed to continuous learning, eager to
             contribute effectively to innovative projects, and excited about the
             opportunities ahead in this ever-evolving field.
@@ -52,7 +54,7 @@ const About = () => {
               Hire Me
             </button>
           </div> */}
-          <div className='mx-20 md:mx-12 md:mt-5 mt-5 py-4'>
+          <div className='mx-14 md:mx-12 md:mt-5 mt-5 py-4'>
             <p className='text-xl md:text-3xl font-bold text-[#fec576]'>
               Tech Stack
             </p>
